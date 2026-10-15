@@ -10,9 +10,21 @@ function LoginPage() {
       </div>
       <p className="pTop">Smart Buissness Intelligence </p>
       <div className="loginContainer">
-        <div className="SubloginContainer"><h1>Welcome Back</h1>
-<p>sign in to your account</p></div>
-        
+        <div className="SubloginContainer">
+          <h1>Welcome Back</h1>
+          <p>sign in to your account</p>
+
+<div className="inputGroup">
+  <div className="emailInput"><label htmlFor="email">Email adress</label>
+<input type="email" name="email" id="email" placeholder="you@example.com"/></div>
+<div className="passwordInput"><label htmlFor="password">Password</label>
+<input type="password" name="password" id="password" placeholder="Enter your password"/></div>
+<span className="ForgetPassSpan">Forget password?</span>
+
+</div>
+<button className="SignInButton">Sign In</button>
+<div className="lineText"><span></span><p>or contnue with</p><span></span></div>
+        </div>
       </div>
     </>
   );

@@ -43,30 +43,109 @@ body {
 
 /*The container div and its elements*/
 
-
-.loginContainer{
- margin-top: 6rem;
-   position:absolute;
-    width: 50vw;
-    height: fit-content;
-    background-color: #fafbfd;
-    border-radius: 1rem;
-   left: 50%;
-   transform: translateX(-50%);
-   
+.loginContainer {
+  margin-top: 6rem;
+  position: absolute;
+  width: 50vw;
+  height: fit-content;
+  background-color: #fafbfd;
+  border-radius: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.SubloginContainer{
-   display: flex;
+.SubloginContainer {
+  display: flex;
 
-    background-color: #fafbfd;
-    border-radius: 1rem;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    
-   
+  background-color: #fafbfd;
+  border-radius: 1rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.SubloginContainer h1{margin:0;padding: 0;
+.SubloginContainer h1 {
+  margin: 1rem 0 0 0;
+  padding: 0;
 }
-.SubloginContainer p{margin:0;padding: 0;}
+.SubloginContainer p {
+  margin: 0;
+  padding: 0;
+  color:#5b657c;
+}
+
+
+/*For inputs -email and password*/
+.inputGroup{
+  margin-top: 5rem;
+display: flex;
+flex-direction: column;
+gap: 3rem;
+} 
+.emailInput{
+display: flex;
+flex-direction: column;
+gap: 0.7rem;
+}
+.emailInput label{
+  font-size: 1.5rem;
+font-weight: 500;
+}
+.emailInput input{
+  width: 35rem;
+  height: 2.5rem;
+  border-radius: 0.2rem;
+  border-color:grey;
+  font-size: 1rem;
+}
+.passwordInput{
+display: flex;
+flex-direction: column;
+gap: 0.7rem;
+}
+.passwordInput label{
+  font-size: 1.5rem;
+font-weight: 500;
+}
+.passwordInput input{
+  width: 35rem;
+  height: 2.5rem;
+  border-radius: 0.2rem;
+  border-color:grey;
+  font-size: 1rem;
+}
+.ForgetPassSpan{
+position: absolute;
+color: #1f6bf8;
+margin-top: 9.5rem;
+left: 44rem;
+font-size: medium;
+}
+.SignInButton{
+width: 35rem;
+  height: 3rem;
+ font-size: 1.5rem;
+border-radius: 0.2rem;
+ background-color: #1c68f7;
+  color:white;
+ padding: 1rem;
+ margin-top: 4rem;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.lineText{
+display: flex;
+align-items: center;
+width: 100%;
+gap: 1rem;
+margin-top: 2rem;
+}
+.lineText span{
+flex: 1;
+height: 1px;
+background-color: #d1d5db;
+}
+.lineText p{
+  margin: 0;
+}
