@@ -52,6 +52,7 @@ body {
   border-radius: 1rem;
   left: 50%;
   transform: translateX(-50%);
+  padding-bottom: 2rem;
 }
 
 .SubloginContainer {
@@ -148,4 +149,13 @@ background-color: #d1d5db;
 }
 .lineText p{
   margin: 0;
+}
+
+.googleButtonContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
+  position: relative;
+ 
 }
