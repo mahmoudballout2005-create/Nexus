@@ -50,7 +50,7 @@ function LoginPage() {
                   setPass(e.target.value);
                 }}
                 placeholder="Enter your password"
-              />{passError && <p className="emailError">{passError}</p>}
+              />{passError && <p className="PassError">{passError}</p>}
 
             
             </div>
@@ -59,6 +59,7 @@ function LoginPage() {
           <button
             className="SignInButton"
             onClick={() => {
+              
               if (!email.includes("@") || !email.includes(".") ) {
                 setEmailError("Please enter a valid email address.");
                 

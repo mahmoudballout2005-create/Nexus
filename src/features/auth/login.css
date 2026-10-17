@@ -71,84 +71,83 @@ body {
 .SubloginContainer p {
   margin: 0;
   padding: 0;
-  color:#5b657c;
+  color: #5b657c;
 }
-
 
 /*For inputs -email and password*/
-.inputGroup{
+.inputGroup {
   margin-top: 5rem;
-display: flex;
-flex-direction: column;
-gap: 3rem;
-} 
-.emailInput{
-display: flex;
-flex-direction: column;
-gap: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
-.emailInput label{
+.emailInput {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.emailInput label {
   font-size: 1.5rem;
-font-weight: 500;
+  font-weight: 500;
 }
-.emailInput input{
+.emailInput input {
   width: 35rem;
   height: 2.5rem;
   border-radius: 0.2rem;
-  border-color:grey;
+  border-color: grey;
   font-size: 1rem;
 }
-.passwordInput{
-display: flex;
-flex-direction: column;
-gap: 0.7rem;
+.passwordInput {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
 }
-.passwordInput label{
+.passwordInput label {
   font-size: 1.5rem;
-font-weight: 500;
+  font-weight: 500;
 }
-.passwordInput input{
+.passwordInput input {
   width: 35rem;
   height: 2.5rem;
   border-radius: 0.2rem;
-  border-color:grey;
+  border-color: grey;
   font-size: 1rem;
 }
-.ForgetPassSpan{
-position: absolute;
-color: #1f6bf8;
-margin-top: 9.5rem;
-left: 44rem;
-font-size: medium;
-cursor: pointer;
+.ForgetPassSpan {
+  position: absolute;
+  color: #1f6bf8;
+  margin-top: 9.5rem;
+  left: 44rem;
+  font-size: medium;
+  cursor: pointer;
 }
-.SignInButton{
-width: 35rem;
+.SignInButton {
+  width: 35rem;
   height: 3rem;
- font-size: 1.5rem;
-border-radius: 0.2rem;
- background-color: #1c68f7;
-  color:white;
- padding: 1rem;
- margin-top: 4rem;
- display: flex;
+  font-size: 1.5rem;
+  border-radius: 0.2rem;
+  background-color: #1c68f7;
+  color: white;
+  padding: 1rem;
+  margin-top: 4rem;
+  display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
 }
-.lineText{
-display: flex;
-align-items: center;
-width: 100%;
-gap: 1rem;
-margin-top: 2rem;
+.lineText {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+  margin-top: 2rem;
 }
-.lineText span{
-flex: 1;
-height: 1px;
-background-color: #d1d5db;
+.lineText span {
+  flex: 1;
+  height: 1px;
+  background-color: #d1d5db;
 }
-.lineText p{
+.lineText p {
   margin: 0;
 }
 
@@ -158,36 +157,255 @@ background-color: #d1d5db;
   width: 100%;
   margin-top: 2rem;
   position: relative;
- 
 }
 
-.underSignup{
-display: flex;
-flex-direction: row;
-gap: 0.5rem;
-justify-content: center;
-position: relative;
-top: 72%;
- 
+.underSignup {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: center;
+  position: relative;
+  top: 72%;
 }
-.dontP{
-color: white;
-
-
-
+.dontP {
+  color: white;
 }
-.SignupP{
-color:#1c68f7;
-cursor: pointer;
+.SignupP {
+  color: #1c68f7;
+  cursor: pointer;
 }
 .SignupP a {
   text-decoration: none;
   color: inherit;
 }
 
+/*errors*/
+.emailError {
+  position: static;
+  top: 2rem;
+}
+
+/***Media responsiveness***/
+/* Mobile */
+@media (max-width: 480px) {
+  /*Top icon and h1 and p*/
+.TopIconH {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+}
+.TopIconH img {
+  margin: 0;
+  padding: 0;
+  width: 3rem;
+  height: auto;
+}
+.TopIconH h1 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 3rem;
+}
+.pTop {
+  margin-top: 1rem;
+  position: absolute;
+  color: white;
+  font-size: 0.8rem;
+  letter-spacing: 0.4rem;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/*The container div and its elements*/
+
+.loginContainer {
+  margin-top: 6rem;
+  position: absolute;
+  width: 90vw;
+  height: fit-content;
+  background-color: #fafbfd;
+  border-radius: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-bottom: 2rem;
+}
+
+.SubloginContainer {
+  display: flex;
+
+  background-color: #fafbfd;
+  border-radius: 1rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.SubloginContainer h1 {
+  margin: 1rem 0 0 0;
+  padding: 0;
+}
+.SubloginContainer p {
+  margin: 0;
+  padding: 0;
+  color: #5b657c;
+}
+
+/*For inputs -email and password*/
+.inputGroup {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.emailInput {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+   width: 100%;
+  box-sizing: border-box;
+  min-width: 0;
+  
+}
+.emailInput label {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.emailInput input {
+  width: 20rem;
+  height: 2.5rem;
+  border-radius: 0.2rem;
+  border-color: grey;
+  font-size: 1rem;
+}
+.passwordInput {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+   width: 100%;
+  box-sizing: border-box;
+  min-width: 0;
+  
+}
+.passwordInput label {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.passwordInput input {
+  width: 20rem;
+  height: 2.5rem;
+  border-radius: 0.2rem;
+  border-color: grey;
+  font-size: 1rem;
+}
+.ForgetPassSpan {
+  position: absolute;
+  color: #1f6bf8;
+  font-size: 10px;
+  white-space: nowrap;
+  cursor: pointer;
+  left: 50%;
+  transform: translateX(4rem);
+  margin-top: 10.5rem;
+}
+.SignInButton {
+  width: 20rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  border-radius: 0.2rem;
+  background-color: #1c68f7;
+  color: white;
+  padding: 1rem;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.lineText {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.lineText span {
+  flex: 1;
+  height: 1px;
+  background-color: #d1d5db;
+}
+.lineText p {
+  margin: 0;
+}
+
+.googleButtonContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-width: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.underSignup {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: center;
+  position: relative;
+  top: 72%;
+}
+.dontP {
+  position: relative;
+  color: white;
+  top: 21rem;
+}
+.SignupP {
+  position: relative;
+  color: #1c68f7;
+  cursor: pointer;
+   top: 21rem;
+}
+.SignupP a {
+  text-decoration: none;
+  color: inherit;
+}
 
 /*errors*/
-.emailError{position: static;
-top: 2rem;
+.emailError {
+  position: absolute;
+    top: 16.5rem;
+  
+}
+.passError {
+  position: absolute;
+    top: 16.5rem;
+  
+}
 
+}
+
+/* Tablet */
+@media (min-width: 481px) and (max-width: 768px) {
+}
+
+/* Laptop */
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+
+/* Desktop */
+@media (min-width: 1025px) and (max-width: 1440px) {
+}
+
+/* Widescreen */
+@media (min-width: 1441px) {
+}
+
+/* Landscape */
+@media (max-height: 500px) and (orientation: landscape) {
+}
+
+/* Touchscreen */
+@media (hover: none) and (pointer: coarse) {
 }
