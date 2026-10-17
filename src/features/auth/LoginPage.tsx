@@ -2,6 +2,7 @@ import React from "react";
 import "./login.css";
 import { GoogleLogin } from "@react-oauth/google";
 import type { CredentialResponse } from "@react-oauth/google";
+import { Link } from "react-router-dom";
 import MainLogo from "../../../public/MainLogo.png";
 function LoginPage() {
   return (
@@ -45,9 +46,7 @@ function LoginPage() {
           </div>
         </div>
         <div className="googleButtonContainer">
-         
           <GoogleLogin
-         
             shape="rectangular"
             width="500"
             onSuccess={(credentialResponse: CredentialResponse) => {
@@ -58,7 +57,13 @@ function LoginPage() {
             }}
           />
         </div>
-      </div>
+       
+      </div> <div className="underSignup">
+<p className="dontP">Don't have an account?</p>
+<p className="SignupP" ><Link to="/signup">Sign up</Link></p>
+
+
+        </div>
     </>
   );
 }

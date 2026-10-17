@@ -120,6 +120,7 @@ color: #1f6bf8;
 margin-top: 9.5rem;
 left: 44rem;
 font-size: medium;
+cursor: pointer;
 }
 .SignInButton{
 width: 35rem;
@@ -133,7 +134,7 @@ border-radius: 0.2rem;
  display: flex;
   justify-content: center;
   align-items: center;
-  
+  cursor: pointer;
 }
 .lineText{
 display: flex;
@@ -158,4 +159,28 @@ background-color: #d1d5db;
   margin-top: 2rem;
   position: relative;
  
+}
+
+.underSignup{
+display: flex;
+flex-direction: row;
+gap: 0.5rem;
+justify-content: center;
+position: relative;
+top: 70%;
+ 
+}
+.dontP{
+color: white;
+
+
+
+}
+.SignupP{
+color:#1c68f7;
+cursor: pointer;
+}
+.SignupP a {
+  text-decoration: none;
+  color: inherit;
 }
