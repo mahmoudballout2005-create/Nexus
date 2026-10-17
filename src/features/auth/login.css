@@ -167,7 +167,7 @@ flex-direction: row;
 gap: 0.5rem;
 justify-content: center;
 position: relative;
-top: 70%;
+top: 72%;
  
 }
 .dontP{
@@ -183,4 +183,11 @@ cursor: pointer;
 .SignupP a {
   text-decoration: none;
   color: inherit;
+}
+
+
+/*errors*/
+.emailError{position: static;
+top: 2rem;
+
 }
