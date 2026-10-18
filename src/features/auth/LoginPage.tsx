@@ -100,7 +100,7 @@ function LoginPage() {
       <div className="underSignup">
         <p className="dontP">Don't have an account?</p>
         <p className="SignupP">
-          <Link to="/signup">Sign up</Link>
+          <Link to="/signup">Sign Up</Link>
         </p>
       </div>
     </>
