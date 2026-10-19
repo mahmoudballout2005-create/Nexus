@@ -6,6 +6,8 @@ import TransactionsIcon from "../../../public/transactionIcon.svg";
 import ProjectsIcon from "../../../public/projectsIcon.svg";
 import InsightsIcon from "../../../public/insightsIcon.svg";
 import ReportsIcon from "../../../public/reportsIcon.svg";
+import SettingsIcon from "../../../public/settingsIcon.svg";
+import LogOutIcon from "../../../public/logOutIcon.svg";
 function DashboardPage() {
   return (
     <>
@@ -36,7 +38,18 @@ function DashboardPage() {
                <img src={ReportsIcon} className='itemLogo'/>
     <span className='itemSpan'>Reports</span>
             </div>
+<div className="bottomNavWhole">
+<div className="navItemBottom">
+               <img src={SettingsIcon} className='itemLogo'/>
+    <span className='itemSpan'>Settings</span>
+            </div>
+<div className="navItemBottom">
+               <img src={LogOutIcon} className='itemLogo'/>
+    <span className='itemSpan'>Log out</span>
+            </div> 
 
+
+</div>
 
 
 </div>
