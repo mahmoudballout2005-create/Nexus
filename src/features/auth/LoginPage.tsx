@@ -70,7 +70,7 @@ function LoginPage() {
                 }
               setEmailError("");
               setPassError("");
-              navigate("/dashboard");
+              navigate("/sidebar");
 
 
 

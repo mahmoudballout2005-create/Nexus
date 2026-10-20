@@ -176,7 +176,7 @@ body {
     display: flex;
 
     flex-direction: column;
-    margin-top: 26vh;
+    margin-top: 30vh;
   }
   .itemSpan.active {
     margin: 0;

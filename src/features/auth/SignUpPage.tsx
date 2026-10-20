@@ -76,7 +76,7 @@ function SignUpPage() { const [email, setEmail] = useState("");
                 }
               setEmailError("");
               setPassError("");
-              navigate("/dashboard");
+              navigate("/sidebar");
 
 
 
