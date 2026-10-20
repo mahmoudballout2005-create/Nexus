@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./DashboardPage.css"
 import MainLogo from "../../../public/MainLogo.png";
 import HomeIcon from"../../../public/homeIcon.svg";
@@ -9,6 +9,10 @@ import ReportsIcon from "../../../public/reportsIcon.svg";
 import SettingsIcon from "../../../public/settingsIcon.svg";
 import LogOutIcon from "../../../public/logOutIcon.svg";
 function DashboardPage() {
+/*States */
+const [selected,setSelected]=useState("Dashboard")
+
+
   return (
     <>
     <div className="dashboard">
@@ -20,32 +24,40 @@ function DashboardPage() {
   </div>
     <div className="navItem">
         <img src={HomeIcon} className='itemLogo'/>
-    <span className='itemSpan'>Dashboard</span>
+    <span className={"itemSpan "+(selected==="Dashboard"? "active":"")}
+    onClick={()=>{setSelected("Dashboard")}}
+    id='Dashboard'>Dashboard</span>
     </div>
       <div className="navItem">
         <img src={TransactionsIcon} className='itemLogo'/>
-    <span className='itemSpan'>Transactions</span>
+    <span className={"itemSpan "+(selected==="Transactions"? "active":"")}
+    onClick={()=>{setSelected("Transactions")}} >Transactions</span>
       </div>
         <div className="navItem">
            <img src={ProjectsIcon} className='itemLogo'/>
-    <span className='itemSpan'>Projects</span>
+    <span className={"itemSpan "+(selected==="Projects"? "active":"")}
+    onClick={()=>{setSelected("Projects")}}>Projects</span>
         </div>
           <div className="navItem">
             <img src={InsightsIcon} className='itemLogo'/>
-    <span className='itemSpan'>Insights</span>
+    <span className={"itemSpan "+(selected==="Insights"? "active":"")}
+    onClick={()=>{setSelected("Insights")}}>Insights</span>
           </div>
             <div className="navItem">
                <img src={ReportsIcon} className='itemLogo'/>
-    <span className='itemSpan'>Reports</span>
+    <span className={"itemSpan "+(selected==="Reports"? "active":"")}
+    onClick={()=>{setSelected("Reports")}}>Reports</span>
             </div>
 <div className="bottomNavWhole">
 <div className="navItemBottom">
                <img src={SettingsIcon} className='itemLogo'/>
-    <span className='itemSpan'>Settings</span>
+    <span className={"itemSpan "+(selected==="Settings"? "active":"")}
+    onClick={()=>{setSelected("Settings")}}>Settings</span>
             </div>
 <div className="navItemBottom">
                <img src={LogOutIcon} className='itemLogo'/>
-    <span className='itemSpan'>Log out</span>
+    <span className={"itemSpan "+(selected==="LogOut"? "active":"")}
+    onClick={()=>{setSelected("LogOut")}}>Log out</span>
             </div> 
 
 
