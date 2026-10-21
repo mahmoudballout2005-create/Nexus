@@ -1,4 +1,23 @@
 .sidebar{
-    width: 100%;
-    height:3rem;
+    position: absolute;
+  height: 100vh;
+  width: 15rem;
+  top: 0;
+  left: 15vw;
+  margin: 0;
+  box-sizing: border-box;
+}
+.sidebar input{
+    width: 100rem;
+    height: 4rem;
+   font-size: 1.5rem;
+    border:none;
+     margin-right: 0;
+}
+.sidebar input:focus{
+    width: 100rem;
+    height: 4rem;
+   font-size: 1.5rem;
+    border:none;
+    outline: none;
 }

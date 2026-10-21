@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import "./SideBar.css"
+import DashboardPage from '../../../features/dashboard/DashboardPage';
+
 import MainLogo from "../../../../public/MainLogo.png";
 import HomeIcon from"../../../../public/homeIcon.svg";
 import TransactionsIcon from "../../../../public/transactionIcon.svg";
@@ -69,8 +71,15 @@ const [selected,setSelected]=useState("Dashboard")
 
 
 
-    </div>
     
+    
+
+<div className="mainContent">
+
+{selected=="Dashboard" && <DashboardPage/>}
+
+</div>
+</div>
     </>
   )
 }

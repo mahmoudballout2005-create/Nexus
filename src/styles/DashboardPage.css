@@ -1,0 +1,39 @@
+body{
+    overflow-y: auto;
+    background-color: white;
+}
+
+.ProfileIcon{
+ width: 3.5rem;
+  height: 3.5rem;
+  position: absolute;
+  top: 0;
+  left: 97vw;
+margin-top: 0.5rem;
+}
+.wholePage{
+    display: grid;
+    grid-template-columns: auto  auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    position: relative;
+    top: 0;
+    margin-top: 3.5rem;
+}
+.welcomeH1{
+ grid-column: 1;
+  grid-row: 1;
+  position: relative;
+  
+ 
+margin-left: 2rem;
+}
+.welcomeSpan{
+position: relative;
+top: 5rem;
+left:-27.8rem;
+letter-spacing: 4px;
+}
+.row1Lastcolumn{
+     grid-column: 4;
+  grid-row: 1;
+}

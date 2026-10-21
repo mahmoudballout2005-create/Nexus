@@ -4,7 +4,7 @@ function search() {
   return (
     <>
     <div className="sidebar">
-<input type='search'></input>
+<input type='search' placeholder='Search anything...'></input>
 
 
     </div>

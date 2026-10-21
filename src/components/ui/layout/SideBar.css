@@ -2,7 +2,7 @@ html,
 body {
   height: 100%;
   margin: 0;
-  background: linear-gradient(to right, #07132d, #0b173b);
+ background-color: white;
 }
 #root:has(.dashboard) {
   width: 100%;
@@ -32,6 +32,7 @@ body {
   gap: 1rem;
   justify-content: flex-start;
   background-color: #07132d;
+  min-height: fit-content;
 }
 .navItem {
   display: flex;
@@ -107,8 +108,9 @@ body {
     display: grid;
     grid-template-columns: 20rem 1fr;
     grid-template-rows: 4rem 1fr;
-    width: 100%;
+    
     min-height: 100vh;
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -197,7 +199,7 @@ body {
     display: grid;
     grid-template-columns: 20rem 1fr;
     grid-template-rows: 4rem 1fr;
-    width: 100%;
+    
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -287,7 +289,7 @@ body {
     display: grid;
     grid-template-columns: 20rem 1fr;
     grid-template-rows: 4rem 1fr;
-    width: 100%;
+    
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -366,7 +368,7 @@ body {
     display: grid;
     grid-template-columns: 20rem 1fr;
     grid-template-rows: 4rem 1fr;
-    width: 100%;
+    
     min-height: 100vh;
     margin: 0;
     padding: 0;
