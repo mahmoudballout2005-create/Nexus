@@ -32,7 +32,7 @@ body {
   gap: 1rem;
   justify-content: flex-start;
   background-color: #07132d;
-  min-height: fit-content;
+  height: 210vh;
 }
 .navItem {
   display: flex;
@@ -85,7 +85,7 @@ body {
   display: flex;
 
   flex-direction: column;
-  margin-top: 26vh;
+  margin-top: 135vh;
 }
 .itemSpan.active {
   margin: 0;
@@ -126,6 +126,7 @@ body {
     justify-content: flex-start;
     background-color: #07132d;
     width: 9rem;
+     height: 242vh;
   }
   .navItem {
     display: flex;

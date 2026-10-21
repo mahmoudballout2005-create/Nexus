@@ -21,3 +21,42 @@
     border:none;
     outline: none;
 }
+/* Tablets */
+@media (max-width: 1024px) {
+
+}
+
+/* Mobile phones */
+@media (max-width: 768px) {
+
+}
+
+/* Small mobile phones */
+@media (max-width: 480px) {
+.sidebar{
+    position: absolute;
+  height: 100vh;
+  width: 5rem;
+  top: 0;
+  left: 35vw;
+  margin: 0;
+  box-sizing: border-box;
+}
+.sidebar input{
+    width: 14.5rem;
+    height: 2rem;
+   font-size: 1rem;
+    border:none;
+     margin-right: 0;
+     background: none;
+}
+.sidebar input:focus{
+    width: 50rem;
+    height: 2rem;
+   font-size: 1rem;
+    border:none;
+    outline: none;
+     background: none;
+}
+
+}
