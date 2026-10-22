@@ -8,7 +8,7 @@ body{
   height: 3.5rem;
   position: absolute;
   top: 0;
-  left: 97vw;
+  left: 96vw;
 margin-top: 0.5rem;
 }
 .wholePage{
@@ -41,11 +41,83 @@ letter-spacing: 4px;
 /* Tablets */
 @media (max-width: 1024px) {
 
+.ProfileIcon{
+ width: 2rem;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 94vw;
+margin-top: 0.25rem;
+}
+.wholePage{
+    display: grid;
+    grid-template-columns: auto  auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    position: relative;
+    top: 0;
+    margin-top: 1.25rem;
+}
+.welcomeH1{
+ grid-column: 1;
+  grid-row: 1;
+  position: relative;
+  font-size: medium;
+right: 1rem;
+top: 1rem;
+white-space: nowrap;
+}
+.welcomeSpan{
+position: absolute;
+top: 3.5rem;
+left:1.2rem;
+letter-spacing: 2px;
+font-size: x-small;
+}
+.row1Lastcolumn{
+     grid-column: 4;
+  grid-row: 1;
+}
 }
 
 /* Mobile phones */
 @media (max-width: 768px) {
 
+.ProfileIcon{
+ width: 2rem;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 94vw;
+margin-top: 0.25rem;
+}
+.wholePage{
+    display: grid;
+    grid-template-columns: auto  auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    position: relative;
+    top: 0;
+    margin-top: 1.25rem;
+}
+.welcomeH1{
+ grid-column: 1;
+  grid-row: 1;
+  position: relative;
+  font-size: medium;
+right: 12rem;
+top: 1rem;
+white-space: nowrap;
+}
+.welcomeSpan{
+position: absolute;
+top: 3.5rem;
+left:-10rem;
+letter-spacing: 2px;
+font-size: x-small;
+}
+.row1Lastcolumn{
+     grid-column: 4;
+  grid-row: 1;
+}
 }
 
 /* Small mobile phones */
@@ -81,6 +153,46 @@ position: absolute;
 top: 3.5rem;
 left:-10rem;
 letter-spacing: 2px;
+font-size: x-small;
+}
+.row1Lastcolumn{
+     grid-column: 4;
+  grid-row: 1;
+}
+
+}
+@media (max-width: 1032px){
+
+  
+.ProfileIcon{
+ width:2.2rem;
+  height: 2.2rem;
+  position: absolute;
+  top: 0;
+  left: 84vw;
+margin-top: 0.4rem;
+}
+.wholePage{
+    display: grid;
+    grid-template-columns: auto  auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    position: relative;
+    top: 0;
+    margin-top: 3.5rem;
+}
+.welcomeH1{
+ grid-column: 1;
+  grid-row: 1;
+  position: relative;
+  
+ font-size: medium;
+right: 12em;
+}
+.welcomeSpan{
+position: relative;
+top: 2.2rem;
+left:-25rem;
+letter-spacing: 4px;
 font-size: x-small;
 }
 .row1Lastcolumn{
