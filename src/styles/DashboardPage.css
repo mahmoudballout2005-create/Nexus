@@ -37,7 +37,46 @@ letter-spacing: 4px;
      grid-column: 4;
   grid-row: 1;
 }
+@media (max-width: 1034px){
+ 
+.ProfileIcon{
+ width: 2rem;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 94vw;
+margin-top: 0.25rem;
+}
+.wholePage{
+    display: grid;
+    grid-template-columns: auto  auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    position: relative;
+    top: 0;
+    margin-top: 1.25rem;
+}
+.welcomeH1{
+ grid-column: 1;
+  grid-row: 1;
+  position: relative;
+  font-size: medium;
+right: 9rem;
+top: 1rem;
+white-space: nowrap;
+}
+.welcomeSpan{
+position: absolute;
+top: 3.5rem;
+left:-6.8rem;
+letter-spacing: 2px;
+font-size: x-small;
+}
+.row1Lastcolumn{
+     grid-column: 4;
+  grid-row: 1;
+}
 
+}
 /* Tablets */
 @media (max-width: 1024px) {
 
@@ -62,14 +101,14 @@ margin-top: 0.25rem;
   grid-row: 1;
   position: relative;
   font-size: medium;
-right: 1rem;
+right: 0rem;
 top: 1rem;
 white-space: nowrap;
 }
 .welcomeSpan{
 position: absolute;
 top: 3.5rem;
-left:1.2rem;
+left:2rem;
 letter-spacing: 2px;
 font-size: x-small;
 }
@@ -87,7 +126,7 @@ font-size: x-small;
   height: auto;
   position: absolute;
   top: 0;
-  left: 94vw;
+  left: 98vw;
 margin-top: 0.25rem;
 }
 .wholePage{
@@ -103,14 +142,14 @@ margin-top: 0.25rem;
   grid-row: 1;
   position: relative;
   font-size: medium;
-right: 12rem;
+right: 11rem;
 top: 1rem;
 white-space: nowrap;
 }
 .welcomeSpan{
 position: absolute;
 top: 3.5rem;
-left:-10rem;
+left:-8.9rem;
 letter-spacing: 2px;
 font-size: x-small;
 }
@@ -161,43 +200,4 @@ font-size: x-small;
 }
 
 }
-@media (max-width: 1032px){
 
-  
-.ProfileIcon{
- width:2.2rem;
-  height: 2.2rem;
-  position: absolute;
-  top: 0;
-  left: 84vw;
-margin-top: 0.4rem;
-}
-.wholePage{
-    display: grid;
-    grid-template-columns: auto  auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    position: relative;
-    top: 0;
-    margin-top: 3.5rem;
-}
-.welcomeH1{
- grid-column: 1;
-  grid-row: 1;
-  position: relative;
-  
- font-size: medium;
-right: 12em;
-}
-.welcomeSpan{
-position: relative;
-top: 2.2rem;
-left:-25rem;
-letter-spacing: 4px;
-font-size: x-small;
-}
-.row1Lastcolumn{
-     grid-column: 4;
-  grid-row: 1;
-}
-
-}

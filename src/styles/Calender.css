@@ -57,7 +57,69 @@
   box-shadow: 0 8px 30px rgba(13, 30, 66, 0.06);
   min-width: 0;
 }
+@media (max-width: 1034px){
+  .nexusCalendar {
+  min-width: 0;
+  padding: 2rem;
+  color: #14213d;
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+ right: 2rem;
+ top: 4rem;
+}
 
+.calendarHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.calendarEyebrow {
+  color: #6475f5;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+}
+
+.calendarHeader h1 {
+  margin: 0.35rem 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.calendarHeader p:last-child {
+  color: #758099;
+  margin-top: 0.5rem;
+}
+
+.addEventButton {
+  border: none;
+  border-radius: 10px;
+  padding: 0.85rem 1.2rem;
+  background: #5268ed;
+  color: white;
+  font: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.addEventButton:hover {
+  background: #4055d4;
+}
+
+.calendarCard {
+  padding: 1.5rem;
+  border: 1px solid #e7eaf2;
+  border-radius: 18px;
+  background: white;
+  box-shadow: 0 8px 30px rgba(13, 30, 66, 0.06);
+  min-width: 0;
+}
+
+}
 /* Tablets */
 @media (max-width: 1024px) {
 .nexusCalendar {
@@ -142,7 +204,7 @@ font-size: x-small;
   color: #14213d;
   font-family: "Poppins", sans-serif;
   position: absolute;
-  right: 10rem;
+  right: 9rem;
   top: 7rem;
 } 
 
@@ -277,66 +339,3 @@ font-size: x-small;
   min-width: 0;
 }}
 
-@media (max-width: 1032px){
-  .nexusCalendar {
-  min-width: 0;
-  padding: 2rem;
-  color: #14213d;
-  font-family: "Poppins", sans-serif;
-  position: absolute;
- right: 29rem;
- top: 4rem;
-}
-
-.calendarHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 1rem;
-}
-
-.calendarEyebrow {
-  color: #6475f5;
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.14em;
-}
-
-.calendarHeader h1 {
-  margin: 0.35rem 0;
-  font-size: 2rem;
-  font-weight: 600;
-}
-
-.calendarHeader p:last-child {
-  color: #758099;
-  margin-top: 0.5rem;
-}
-
-.addEventButton {
-  border: none;
-  border-radius: 10px;
-  padding: 0.85rem 1.2rem;
-  background: #5268ed;
-  color: white;
-  font: inherit;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background 0.2s ease;
-}
-
-.addEventButton:hover {
-  background: #4055d4;
-}
-
-.calendarCard {
-  padding: 1.5rem;
-  border: 1px solid #e7eaf2;
-  border-radius: 18px;
-  background: white;
-  box-shadow: 0 8px 30px rgba(13, 30, 66, 0.06);
-  min-width: 0;
-}
-
-}
