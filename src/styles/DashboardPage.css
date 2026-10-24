@@ -24,18 +24,45 @@ margin-top: 0.5rem;
   grid-row: 1;
   position: relative;
   
- 
-margin-left: 2rem;
+ margin-top: 2.5rem;
+margin-left: 2.4rem;
 }
 .welcomeSpan{
 position: relative;
-top: 5rem;
-left:-40rem;
+top: 6rem;
+left:-26rem;
 letter-spacing: 4px;
 }
 .row1Lastcolumn{
      grid-column: 4;
   grid-row: 1;
+}
+
+.wholeTotalBoxes{
+display: flex;
+flex-direction: row;
+gap: 2rem;
+position: relative;
+top:12rem ;
+right: 44.8vw;
+justify-content: center;
+
+}
+
+.totalRevnue,.totalExpenses,.netProfit,.growthRate{
+background-color: aliceblue;
+padding: 0rem 3rem 4rem 3rem;
+border-radius: 10px;
+}
+.totalRevnue,.totalExpenses,.netProfit,.growthRate ,h4{
+font-weight: 600;
+
+
+}
+.wholeTotalBoxes span{
+
+font-weight: 800;
+font-size: x-large;
 }
 @media (max-width: 1034px){
  
