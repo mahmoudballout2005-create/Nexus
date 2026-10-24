@@ -40,7 +40,7 @@ export default function CalendarPage() {
             center: "title",
             right: "dayGridMonth,timeGridWeek,timeGridDay,listWeek",
           }}
-          height="auto"
+          height={650}
           dayMaxEvents={3}
           selectable={true}
           editable={true}
