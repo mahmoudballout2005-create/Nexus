@@ -50,14 +50,14 @@
 }
 }
 
-/* Mobile phones */
-@media (max-width: 768px) {
+
+@media (max-width: 1024px) {
 .sidebar{
     position: absolute;
   height: 100vh;
   width: 5rem;
   top: 0;
-  left: 20vw;
+  left: 15vw;
   margin: 0;
   box-sizing: border-box;
 }
@@ -68,6 +68,37 @@
     border:none;
      margin-right: 0;
      background: none;
+     margin-left: 13rem;
+}
+.sidebar input:focus{
+    width: 50rem;
+    height: 2rem;
+   font-size: 1rem;
+    border:none;
+    outline: none;
+     background: none;
+}
+}
+
+/* Mobile phones */
+@media (max-width: 768px) {
+.sidebar{
+    position: absolute;
+  height: 100vh;
+  width: 5rem;
+  top: 1rem;
+  left: -3.5vw;
+  margin: 0;
+  box-sizing: border-box;
+}
+.sidebar input{
+    width: 14.5rem;
+    height: 2rem;
+   font-size: 1rem;
+    border:none;
+     margin-right: 0;
+     background: none;
+     
 }
 .sidebar input:focus{
     width: 50rem;
