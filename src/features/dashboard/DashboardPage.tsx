@@ -22,10 +22,10 @@ function DashboardPage() {
         </div>
 
         <div className="wholeTotalBoxes">
-          <div className="totalRevnue"><h4>Total Revnue</h4><span>$0,000</span></div>
-          <div className="totalExpenses"><h4>Total Expenses</h4><span>$0,000</span></div>
-          <div className="netProfit"><h4>netProfit</h4><span>$0,000</span></div>
-          <div className="growthRate"><h4>growthRate</h4><span>$0,000</span></div>
+          <div className="totalRevnue"><h4>Total Revnue</h4><span className="profileTitle ">$0,000</span><span className="spanNegative">⬇ 0.2%</span></div>
+          <div className="totalExpenses"><h4>Total Expenses</h4><span className="profileTitle ">$0,000</span><span className="spanPositive">⬆ 12%</span></div>
+          <div className="netProfit"><h4>netProfit</h4><span className="profileTitle ">$0,000</span><span className="spanNegative">⬇ 14%</span></div>
+          <div className="growthRate"><h4>growthRate</h4><span className="profileTitle ">$0,000</span><span className="spanPositive">⬆ 16%</span></div>
         </div>
       </div>
     </>
