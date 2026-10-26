@@ -272,15 +272,16 @@ font-size: x-small;
 /* Small mobile phones */
 @media (max-width: 480px) {
 .nexusCalendar {
-  width: calc(140% - 0rem);
+  width: calc(60% - 0rem);
   min-width: 0;
   box-sizing: border-box;
   padding: 0.5rem;
   color: #14213d;
   font-family: "Poppins", sans-serif;
   position: absolute;
-  right: 4rem;
+  right: 29rem;
   top: 7rem;
+  margin-bottom: 10rem;
 } 
 
 

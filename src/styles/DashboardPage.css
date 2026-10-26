@@ -380,7 +380,7 @@ align-items: center;
   height: auto;
   position: absolute;
   top: 0;
-  left: 125vw;
+  left: 145vw;
 margin-top: 0.25rem;
 }
 .wholePage{
@@ -396,14 +396,14 @@ margin-top: 0.25rem;
   grid-row: 1;
   position: relative;
   font-size: medium;
-right: 12rem;
+right: 12.4rem;
 top: 1rem;
 white-space: nowrap;
 }
 .welcomeSpan{
 position: absolute;
-top: 3.5rem;
-left:-10rem;
+top: 5rem;
+left:-9.8rem;
 letter-spacing: 2px;
 font-size: x-small;
 }
@@ -411,6 +411,60 @@ font-size: x-small;
      grid-column: 4;
   grid-row: 1;
 }
+
+.wholeTotalBoxes{
+display: flex;
+flex-direction: row;
+gap: 0.4rem;
+position: relative;
+top:100vh ;
+right: 100vw;
+justify-content: center;
+margin-top: 15rem;
+
+}
+
+.totalRevnue,.totalExpenses,.netProfit,.growthRate{
+background-color: aliceblue;
+padding: 0rem 0.75rem 0.25rem 0.75rem;
+border-radius: 10px;
+white-space: nowrap;
+}
+.totalRevnue,.totalExpenses,.netProfit,.growthRate ,h4{
+font-weight: 600;
+
+
+}
+.profileTitle {
+display: flex;
+flex-direction: column;
+font-weight: 800;
+font-size: medium;
+align-items: center;
+color: black;
+margin-bottom: 0;
+}
+.spanPositive{
+margin-top: 0.5rem;
+margin-bottom: 0;
+font-size: medium;
+color: green;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.spanNegative{
+margin-top: 0.5rem;
+margin-bottom: 0;
+font-size: large;
+color: red;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
 
 }
 
