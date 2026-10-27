@@ -53,6 +53,7 @@ justify-content: center;
 background-color: aliceblue;
 padding: 0rem 3rem 1rem 3rem;
 border-radius: 10px;
+max-height: 13rem;
 }
 .totalRevnue,.totalExpenses,.netProfit,.growthRate ,h4{
 font-weight: 600;
@@ -136,14 +137,15 @@ top:80vh ;
 right: 34vw;
 justify-content: center;
 margin-top: 0;
-
+max-height: 13rem;
 }
 
 .totalRevnue,.totalExpenses,.netProfit,.growthRate{
 background-color: aliceblue;
 padding: 0rem 1.5rem 0rem 1.5rem;
 border-radius: 10px;
-max-height: 15rem;
+max-height: 13rem;
+max-height:80rem;
 white-space: nowrap;
 }
 .totalRevnue,.totalExpenses,.netProfit,.growthRate ,h4{
@@ -232,13 +234,14 @@ top:70vh ;
 right: 20vw;
 justify-content: center;
 margin-top: 0;
-
+max-height: 13rem;
 }
 
 .totalRevnue,.totalExpenses,.netProfit,.growthRate{
 background-color: aliceblue;
 padding: 0rem 1.5rem 0.5rem 1.5rem;
 border-radius: 10px;
+max-height: 13rem;
 }
 .totalRevnue,.totalExpenses,.netProfit,.growthRate ,h4{
 font-weight: 600;
@@ -328,13 +331,14 @@ top:90vh ;
 right: 50vw;
 justify-content: center;
 margin-top: 0;
-
+max-height: 13rem;
 }
 
 .totalRevnue,.totalExpenses,.netProfit,.growthRate{
 background-color: aliceblue;
 padding: 0rem 1.5rem 0.5rem 1.5rem;
 border-radius: 10px;
+max-height: 13rem;
 }
 .totalRevnue,.totalExpenses,.netProfit,.growthRate ,h4{
 font-weight: 600;
@@ -419,18 +423,20 @@ display: flex;
 flex-direction: row;
 gap: 0.4rem;
 position: relative;
-top:100vh ;
-right: 100vw;
+top:92vh ;
+right: 93vw;
 justify-content: center;
 margin-top: 15rem;
-
+max-height: 13rem;
 }
 
 .totalRevnue,.totalExpenses,.netProfit,.growthRate{
 background-color: aliceblue;
 padding: 0rem 0.75rem 0.25rem 0.75rem;
 border-radius: 10px;
+max-height: 13rem;
 white-space: nowrap;
+
 }
 .totalRevnue,.totalExpenses,.netProfit,.growthRate ,h4{
 font-weight: 600;

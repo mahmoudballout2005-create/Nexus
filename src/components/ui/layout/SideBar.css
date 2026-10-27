@@ -87,7 +87,7 @@ body {
   display: flex;
 
   flex-direction: column;
-  margin-top: 135vh;
+  margin-top: 22vh;
 }
 .itemSpan.active {
   margin: 0;
@@ -102,7 +102,7 @@ body {
 }
 
 /*resposive*/
-/* Mobile */
+
 @media (max-width: 480px) {
   /*Whole Page*/
 
@@ -181,7 +181,7 @@ body {
     display: flex;
 
     flex-direction: column;
-    margin-top: 30vh;
+    margin-top: 10vh;
   }
   .itemSpan.active {
     margin: 0;
@@ -196,7 +196,7 @@ body {
   }
 }
 
-/* Tablet */
+
 @media (min-width: 481px) and (max-width: 768px) {
   .dashboard {
     display: grid;
@@ -271,7 +271,7 @@ body {
     display: flex;
 
     flex-direction: column;
-    margin-top: 26vh;
+    margin-top: 56vh;
   }
   .itemSpan.active {
     margin: 0;
@@ -286,8 +286,8 @@ body {
   }
 }
 
-/* Laptop */
-@media (min-width: 769px) and (max-width: 10px) {
+
+@media (min-width: 769px) and (max-width: 1024px) {
   .dashboard {
     display: grid;
     grid-template-columns: 20rem 1fr;
@@ -365,7 +365,7 @@ body {
   }
 }
 
-/* Desktop */
+
 @media (min-width: 1025px) and (max-width: 1440px) {
   .dashboard {
     display: grid;
@@ -440,7 +440,7 @@ body {
     display: flex;
 
     flex-direction: column;
-    margin-top: 14vh;
+    margin-top: 5vh;
   }
   .itemSpan.active {
     margin: 0;
