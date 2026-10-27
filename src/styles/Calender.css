@@ -60,13 +60,14 @@
 
 @media (max-width: 1034px){
   .nexusCalendar {
+    width: calc(80% - 0rem);
   min-width: 0;
   padding: 2rem;
   color: #14213d;
   font-family: "Poppins", sans-serif;
   position: absolute;
- right: 33.5rem;
- top: 4rem;
+ right: 21.5rem;
+ top: 5rem;
 }
 
 .calendarHeader {

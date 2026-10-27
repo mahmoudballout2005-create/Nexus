@@ -133,7 +133,7 @@ flex-direction: row;
 gap: 2rem;
 position: relative;
 top:80vh ;
-right: 35vw;
+right: 34vw;
 justify-content: center;
 margin-top: 0;
 
@@ -141,8 +141,10 @@ margin-top: 0;
 
 .totalRevnue,.totalExpenses,.netProfit,.growthRate{
 background-color: aliceblue;
-padding: 0rem 1.5rem 0.5rem 1.5rem;
+padding: 0rem 1.5rem 0rem 1.5rem;
 border-radius: 10px;
+max-height: 15rem;
+white-space: nowrap;
 }
 .totalRevnue,.totalExpenses,.netProfit,.growthRate ,h4{
 font-weight: 600;

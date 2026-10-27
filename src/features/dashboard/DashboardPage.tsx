@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Outlet } from "react-router-dom";
-import RevenueOverview from "../../components/ui/charts/ChartCard";
+import RevenueOverview from "../../components/ui/charts/RevenueChart";
 import Calendar from "../../features/dashboard/components/calender";
 import "../../styles/DashboardPage.css";
 import Sidebar from "../../components/ui/layout/Sidebar";
