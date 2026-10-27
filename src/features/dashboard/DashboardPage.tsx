@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Outlet } from "react-router-dom";
+import RevenueOverview from "../../components/ui/charts/ChartCard";
 import Calendar from "../../features/dashboard/components/calender";
 import "../../styles/DashboardPage.css";
 import Sidebar from "../../components/ui/layout/Sidebar";
@@ -27,6 +28,7 @@ function DashboardPage() {
           <div className="netProfit"><h4>netProfit</h4><span className="profileTitle ">$0,000</span><span className="spanNegative">⬇ 14%</span></div>
           <div className="growthRate"><h4>growthRate</h4><span className="profileTitle ">$0,000</span><span className="spanPositive">⬆ 16%</span></div>
         </div>
+        <RevenueOverview />
       </div>
     </>
   );

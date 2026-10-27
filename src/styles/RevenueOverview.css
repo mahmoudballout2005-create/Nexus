@@ -1,0 +1,44 @@
+
+.revenueOverview {
+  width: 190%;
+  min-width: 0;
+  box-sizing: border-box;
+
+  background: #ffffff;
+  border: 0.5px solid rgb(235, 232, 232);
+  border-radius: 1rem;
+  color: #14213d;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  top: 20vh;
+  left: 2vw;
+  padding: 3.2rem;
+}
+
+.revenueHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.revenueHeader h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.revenueHeader p {
+  margin: 0.4rem 0 0;
+  color: #7b8496;
+  font-size: 0.85rem;
+}
+
+.revenueHeader span {
+  padding: 0.1rem 0.8rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
