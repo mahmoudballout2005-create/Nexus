@@ -273,14 +273,14 @@ font-size: x-small;
 /* Small mobile phones */
 @media (max-width: 480px) {
 .nexusCalendar {
-  width: calc(60% - 0rem);
+  width: calc(100% - 80rem);
   min-width: 0;
   box-sizing: border-box;
   padding: 0.5rem;
   color: #14213d;
   font-family: "Poppins", sans-serif;
   position: absolute;
-  right: 30rem;
+  right: 62rem;
   top: 7rem;
   margin-bottom: 10rem;
 } 
@@ -292,6 +292,8 @@ font-size: x-small;
   align-items: center;
   gap: 0.2rem;
   margin-bottom: 1rem;
+  font-size: x-small;
+  white-space: nowrap;
 }
 
 .calendarEyebrow {
@@ -299,6 +301,7 @@ font-size: x-small;
   font-size: 0.5rem;
   font-weight: 600;
   letter-spacing: 0.14em;
+  font-size: x-small;
 }
 
 
@@ -306,13 +309,13 @@ font-size: x-small;
 
 .calendarHeader h1 {
   margin: 0.35rem 0;
-  font-size: 1rem;
+font-size: x-small;
   font-weight: 600;
 }
 
 .calendarHeader p:last-child {
   color: #758099;
-  font-size: smaller;
+ font-size: x-small;
   margin-top: 0.2rem;
 }
 
@@ -324,6 +327,7 @@ font-size: x-small;
   background: #5268ed;
   color: white;
   margin-top: 4rem;
+  margin-left: 2rem;
   font-weight: 500;
 font-size: x-small;
   cursor: pointer;
@@ -341,5 +345,6 @@ font-size: x-small;
   background: white;
   box-shadow: 0 8px 30px rgba(13, 30, 66, 0.06);
   min-width: 0;
+width:30rem;
 }}
 
