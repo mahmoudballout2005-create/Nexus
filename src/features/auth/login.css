@@ -194,6 +194,7 @@ body {
 /***Media responsiveness***/
 /* Mobile */
 @media (max-width: 480px) {
+
   /*Top icon and h1 and p*/
 .TopIconH {
   margin-top: 4rem;

@@ -1,5 +1,5 @@
 body{
-    overflow-y: auto;
+    overflow-y: hidden;
     background-color: white;
  
 }
@@ -26,12 +26,12 @@ margin-top: 0.5rem;
   grid-row: 1;
   position: relative;
   
- margin-top: 2.5rem;
+ margin-top: 9rem;
 margin-left: 2.4rem;
 }
 .welcomeSpan{
 position: relative;
-top: 6rem;
+top: 13rem;
 left:-26rem;
 letter-spacing: 4px;
 }
@@ -45,7 +45,7 @@ display: flex;
 flex-direction: row;
 gap: 2rem;
 position: relative;
-top:12rem ;
+top:18.5rem ;
 right: 44.8vw;
 justify-content: center;
 
@@ -109,6 +109,8 @@ margin-top: 0.25rem;
     position: relative;
     top: 0;
     margin-top: 1.25rem;
+    
+     
 }
 .welcomeH1{
  grid-column: 1;
@@ -116,12 +118,12 @@ margin-top: 0.25rem;
   position: relative;
   font-size: medium;
 right: 9rem;
-top: 1rem;
+top: -7rem;
 white-space: nowrap;
 }
 .welcomeSpan{
 position: absolute;
-top: 5rem;
+top: 4rem;
 left:-6.8rem;
 letter-spacing: 2px;
 font-size: x-small;
@@ -193,9 +195,9 @@ align-items: center;
 .ProfileIcon{
  width: 2rem;
   height: auto;
-  position: absolute;
-  top: 0;
-  left: 65rem;
+  position: relative;
+  top: -1rem;
+  left: 35rem;
 margin-top: 0.25rem;
 }
 .wholePage{
@@ -211,14 +213,14 @@ margin-top: 0.25rem;
   grid-row: 1;
   position: relative;
   font-size: medium;
-right: 0rem;
-top: 1rem;
+right: 7.4rem;
+top: -8rem;
 white-space: nowrap;
 }
 .welcomeSpan{
 position: absolute;
-top: 5rem;
-left:2.5rem;
+top: 3rem;
+left:-4.8rem;
 letter-spacing: 2px;
 font-size: x-small;
 }
@@ -231,10 +233,10 @@ font-size: x-small;
 .wholeTotalBoxes{
 display: flex;
 flex-direction: row;
-gap: 3rem;
+gap: 2rem;
 position: relative;
 top:70vh ;
-right: 20vw;
+right: 34vw;
 justify-content: center;
 margin-top: 0;
 max-height: 13rem;
@@ -290,9 +292,9 @@ align-items: center;
 .ProfileIcon{
  width: 2rem;
   height: auto;
-  position: absolute;
-  top: 1rem;
-  left: 60rem;
+  position: relative;
+  top: -1rem;
+  left: 21rem;
 margin-top: 0.25rem;
 }
 .wholePage{
@@ -309,12 +311,12 @@ margin-top: 0.25rem;
   position: relative;
   font-size: medium;
 right: 11rem;
-top: 1rem;
+top: -10rem;
 white-space: nowrap;
 }
 .welcomeSpan{
 position: absolute;
-top: 5rem;
+top: 1rem;
 left:-8.5rem;
 letter-spacing: 2px;
 font-size: x-small;
@@ -328,13 +330,14 @@ font-size: x-small;
 .wholeTotalBoxes{
 display: flex;
 flex-direction: row;
-gap: 2rem;
+gap: 0.5rem;
 position: relative;
 top:90vh ;
 right: 50vw;
 justify-content: center;
 margin-top: 0;
 max-height: 13rem;
+
 }
 
 .totalRevnue,.totalExpenses,.netProfit,.growthRate{
@@ -342,17 +345,18 @@ background-color: aliceblue;
 padding: 0rem 1.5rem 0.5rem 1.5rem;
 border-radius: 10px;
 max-height: 13rem;
+
 }
 .totalRevnue,.totalExpenses,.netProfit,.growthRate ,h4{
-font-weight: 600;
-
+font-weight: 400;
+font-size: x-small;
 
 }
 .profileTitle {
 display: flex;
 flex-direction: column;
-font-weight: 800;
-font-size: large;
+font-weight: 500;
+font-size: small;
 align-items: center;
 color: black;
 margin-bottom: 0;
@@ -387,10 +391,11 @@ align-items: center;
 .ProfileIcon{
  width: 2rem;
   height: auto;
-  position: absolute;
-  top: 0;
-  left: 40rem;
+  position: relative;
+  top: -2rem;
+  left: 1rem;
 margin-top: 0.25rem;
+
 }
 .wholePage{
     display: grid;
@@ -407,13 +412,13 @@ margin-top: 0.25rem;
   position: relative;
   font-size: medium;
 right: 12.4rem;
-top: 1rem;
+top: -8rem;
 white-space: nowrap;
 font-size: 1rem;
 }
 .welcomeSpan{
 position: absolute;
-top: 5rem;
+top: 3rem;
 left:-9.8rem;
 letter-spacing: 0px;
 font-size: xx-small;
@@ -423,30 +428,35 @@ font-size: xx-small;
   grid-row: 1;
 }
 
-.wholeTotalBoxes{
-display: flex;
-flex-direction: row;
-gap: 0.4rem;
-position: relative;
-top:92vh ;
-right: 95vw;
-
-justify-content: center;
-margin-top: 15rem;
-max-height: 13rem;
+.wholeTotalBoxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  position: relative;
+  top: 100vh;
+  right: 100vw;
+  justify-content: center;
+  margin-top: 15rem;
+  max-height: 13rem;
+  align-items: center;
+ 
 }
 
-.totalRevnue,.totalExpenses,.netProfit,.growthRate{
-background-color: aliceblue;
-padding: 0rem 0.75rem 0.25rem 0.75rem;
-border-radius: 10px;
-max-height: 13rem;
-white-space: nowrap;
-
+.totalRevnue,
+.totalExpenses,
+.netProfit,
+.growthRate {
+  width: calc(50% - 0.2rem);
+  box-sizing: border-box;
+   min-width: 6rem;
+  background: none;
+ 
 
 }
 .totalRevnue,.totalExpenses,.netProfit,.growthRate ,h4{
 font-weight: 400;
+font-size: 0.5rem;
 
 
 }

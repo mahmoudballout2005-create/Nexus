@@ -1,4 +1,6 @@
-
+body{
+    overflow-x: hidden;
+}
 .revenueOverview {
   width: 190%;
   min-width: 0;
@@ -10,7 +12,7 @@
   color: #14213d;
   font-family: "Poppins", sans-serif;
   position: relative;
-  top: 20vh;
+  top: 30vh;
   left: 2vw;
   padding: 3.2rem;
 }
@@ -90,7 +92,7 @@
 }
 @media (max-width: 1024px){
 .revenueOverview {
-  width: 660%;
+  width: 640%;
   min-width: 0;
   box-sizing: border-box;
 
@@ -100,8 +102,8 @@
   color: #14213d;
   font-family: "Poppins", sans-serif;
   position: relative;
-  top: 102vh;
-  left: -57rem;
+  top: 90vh;
+  left: -61rem;
   padding: 3.2rem;
 }
 
@@ -135,7 +137,7 @@
 }
 @media (max-width: 768px){
 .revenueOverview {
-  width: 660%;
+  width: 450%;
   min-width: 0;
   box-sizing: border-box;
 
@@ -146,8 +148,9 @@
   font-family: "Poppins", sans-serif;
   position: relative;
   top: 120vh;
-  left: -66rem;
+  left: -52rem;
   padding: 3.2rem;
+
 }
 
 .revenueHeader {
@@ -178,8 +181,9 @@
 }
 }
 @media (max-width: 480px){
+ 
 .revenueOverview {
-  width: 480%;
+  width: 350%;
   min-width: 0;
   box-sizing: border-box;
 
@@ -189,8 +193,8 @@
   color: #14213d;
   font-family: "Poppins", sans-serif;
   position: relative;
-  top: 150vh;
-  left: -56rem;
+  top: 201vh;
+  left: -40rem;
   padding: 3.2rem;
 }
 
@@ -204,20 +208,20 @@
 
 .revenueHeader h2 {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 0.75rem;
   font-weight: 600;
 }
 
 .revenueHeader p {
   margin: 0.4rem 0 0;
   color: #7b8496;
-  font-size: 0.85rem;
+  font-size: 0.5rem;
 }
 
 .revenueHeader span {
   padding: 0.1rem 0.8rem;
   border: 1px solid #e5e7eb;
   border-radius: 0.5rem;
-  font-size: 1rem;
+  font-size: 0.5rem;
 }
 }

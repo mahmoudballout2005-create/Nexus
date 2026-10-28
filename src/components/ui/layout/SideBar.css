@@ -3,6 +3,7 @@ body {
   height: 100%;
   margin: 0;
  background-color: white;
+ overflow-y: hidden;
  
 }
 #root:has(.dashboard) {
@@ -24,6 +25,7 @@ body {
   box-sizing: border-box;
   background-color: white;
   overflow-x: hidden;
+  overflow-y: hidden;
  
 }
 
@@ -35,7 +37,7 @@ body {
   gap: 1rem;
   justify-content: flex-start;
   background-color: #07132d;
-  height: 210vh;
+  height: 100vh;
 }
 .navItem {
   display: flex;
@@ -111,7 +113,7 @@ body {
 
   .dashboard {
     display: grid;
-    grid-template-columns: 20rem 1fr;
+    grid-template-columns: 20rem 1fr ; 
     grid-template-rows: 4rem 1fr;
     
      min-height: fit-content;
@@ -120,7 +122,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: white;
-  
+  overflow-y: auto;
   }
 
   .leftBar {
@@ -132,7 +134,7 @@ body {
     justify-content: flex-start;
     background-color: #07132d;
     width: 9rem;
-     height: 210vh;
+     height: 212vh;
   }
   .navItem {
     display: flex;
@@ -212,6 +214,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: white;
+    overflow-y: auto;
+ 
   }
 
   .leftBar {
@@ -223,6 +227,7 @@ body {
     justify-content: flex-start;
     background-color: #07132d;
     width: 9rem;
+    height: 200vh;
   }
   .navItem {
     display: flex;
@@ -275,7 +280,7 @@ body {
     display: flex;
 
     flex-direction: column;
-    margin-top: 56vh;
+    margin-top: 4vh;
   }
   .itemSpan.active {
     margin: 0;
@@ -292,6 +297,7 @@ body {
 
 
 @media (min-width: 769px) and (max-width: 1024px) {
+
   .dashboard {
     display: grid;
     grid-template-columns: 20rem 1fr;
@@ -302,6 +308,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: white;
+    overflow-y: auto;
   }
 
   .leftBar {
@@ -312,7 +319,8 @@ body {
     gap: 0.5rem;
     justify-content: flex-start;
     background-color: #07132d;
-    width: 9rem;
+    width: 13.5rem;
+    height: 140vh;
   }
   .navItem {
     display: flex;
@@ -337,7 +345,7 @@ body {
     margin: 0;
     padding: 0;
     color: white;
-    font-size: 0.5rem;
+    font-size: 1rem;
     padding: 0.5rem 2rem 0.5rem 1rem;
     border-radius: 10px;
     width: 75%;
@@ -345,6 +353,7 @@ body {
   }
   .itemSpan:hover {
     background-color: #1a3673;
+  
   }
   .itemLogo {
     margin: 0;
@@ -365,8 +374,9 @@ body {
     display: flex;
 
     flex-direction: column;
-    margin-top: 18vh;
+    margin-top: 8vh;
   }
+
 }
 
 
@@ -381,6 +391,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: white;
+      overflow-y: auto;
+      
   }
 
   .leftBar {
@@ -392,6 +404,7 @@ body {
     justify-content: flex-start;
     background-color: #07132d;
     width: 9rem;
+    height: 160vh;
   }
   .navItem {
     display: flex;

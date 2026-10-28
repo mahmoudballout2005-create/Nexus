@@ -13,6 +13,7 @@
    font-size: 1.5rem;
     border:none;
      margin-right: 0;
+     position: relative;
 }
 .sidebar input:focus{
     width: 100rem;
@@ -24,11 +25,11 @@
 /* Tablets */
 @media (max-width: 1032px) {
 .sidebar{
-    position: absolute;
-  height: 100vh;
+    position: relative;
+  height: fit-content;
   width: 5rem;
-  top: 0;
-  left: 15vw;
+  top: 1rem;
+  left: -11vw;
   margin: 0;
   box-sizing: border-box;
 }
@@ -53,11 +54,11 @@
 
 @media (max-width: 1024px) {
 .sidebar{
-    position: absolute;
-  height: 100vh;
+    position: relative;
+  height: fit-content;
   width: 5rem;
-  top: 0;
-  left: 15vw;
+  top: 1rem;
+  left: -10vw;
   margin: 0;
   box-sizing: border-box;
 }
@@ -66,9 +67,9 @@
     height: 2rem;
    font-size: 1rem;
     border:none;
-     margin-right: 0;
+    
      background: none;
-     margin-left: 13rem;
+       overflow-x: hidden;
 }
 .sidebar input:focus{
     width: 50rem;
@@ -83,8 +84,8 @@
 /* Mobile phones */
 @media (max-width: 768px) {
 .sidebar{
-    position: absolute;
-  height: 100vh;
+    position: relative;
+  height: fit-content;
   width: 5rem;
   top: 1rem;
   left: -3.5vw;
@@ -95,6 +96,7 @@
     width: 14.5rem;
     height: 2rem;
    font-size: 1rem;
+   right: 7.5rem;
     border:none;
      margin-right: 0;
      background: none;
@@ -114,12 +116,15 @@
 /* Small mobile phones */
 @media (max-width: 480px) {
 .sidebar{
-    position: absolute;
-  height: 100vh;
+    position: relative;
+   
+  height: fit-content;
   width: 5rem;
-  top: 0;
+  top: 0.2rem;
+right: 1rem;
+  margin-bottom: 0;
 
-  margin: 0;
+ 
   box-sizing: border-box;
 }
 .sidebar input{
@@ -128,7 +133,7 @@
     height: 2rem;
    font-size: 1rem;
     border:none;
-  right: 2.5rem;
+  right: 9.5rem;
      background: none;
      
 }
