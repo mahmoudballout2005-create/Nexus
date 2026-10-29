@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./login.css";
+import "./login.css"
 import { GoogleLogin } from "@react-oauth/google";
 import type { CredentialResponse } from "@react-oauth/google";
 import { Link } from "react-router-dom";
@@ -16,11 +16,11 @@ function LoginPage() {
   return (
     <>
       <div className="TopIconH">
-        <img src={MainLogo} />
+        <img src={MainLogo} className="Mainimg"/>
         <h1>Nexus</h1>
       </div>
       <p className="pTop">Smart Buissness Intelligence </p>
-      <div className="loginContainer">
+      <div className="loginContainer"> 
         <div className="SubloginContainer">
           <h1>Welcome Back</h1>
           <p>sign in to your account</p>
@@ -50,7 +50,7 @@ function LoginPage() {
                   setPass(e.target.value);
                 }}
                 placeholder="Enter your password"
-              />{passError && <p className="PassError">{passError}</p>}
+              />{passError && <p className="passError">{passError}</p>}
 
             
             </div>

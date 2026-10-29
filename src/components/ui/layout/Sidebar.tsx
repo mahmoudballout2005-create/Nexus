@@ -4,7 +4,7 @@ import DashboardPage from '../../../features/dashboard/DashboardPage';
 
 import MainLogo from "../../../../public/MainLogo.png";
 import HomeIcon from"../../../../public/homeIcon.svg";
-import TransactionsIcon from "../../../../public/transactionIcon.svg";
+
 import ProjectsIcon from "../../../../public/projectsIcon.svg";
 import InsightsIcon from "../../../../public/insightsIcon.svg";
 import ReportsIcon from "../../../../public/reportsIcon.svg";
@@ -30,11 +30,7 @@ const [selected,setSelected]=useState("Dashboard")
     onClick={()=>{setSelected("Dashboard")}}
     id='Dashboard'>Dashboard</span>
     </div>
-      <div className="navItem">
-        <img src={TransactionsIcon} className='itemLogo'/>
-    <span className={"itemSpan "+(selected==="Transactions"? "active":"")}
-    onClick={()=>{setSelected("Transactions")}} >Transactions</span>
-      </div>
+      
         <div className="navItem">
            <img src={ProjectsIcon} className='itemLogo'/>
     <span className={"itemSpan "+(selected==="Projects"? "active":"")}

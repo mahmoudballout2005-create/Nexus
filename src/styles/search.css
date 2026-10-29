@@ -6,6 +6,7 @@
   left: 15vw;
   margin: 0;
   box-sizing: border-box;
+  z-index: 100;
 }
 .sidebar input{
     width: 100rem;
@@ -123,7 +124,7 @@
   top: 0.2rem;
 right: 1rem;
   margin-bottom: 0;
-
+z-index: 99999;
  
   box-sizing: border-box;
 }
@@ -135,7 +136,7 @@ right: 1rem;
     border:none;
   right: 9.5rem;
      background: none;
-     
+     cursor: text;
 }
 .sidebar input:focus{
     width: 14.5;
